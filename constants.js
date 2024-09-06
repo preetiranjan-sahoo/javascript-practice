@@ -69,7 +69,20 @@
 // console.log(message);
 
 
-function sum(a=4,b=3){
-    return a+b;
-}
-console.log(sum(5,6));
+
+//default value
+// function sum(a=4,b=3){
+//     return a+b;
+// }
+// console.log(sum(5,6));
+
+
+//fat arrow function
+// let sum =(a,b)=>{
+//     let result = `the sum of ${a} and ${b} is ${a+b}`;
+//     console.log(result);
+//     };
+//   sum(2,3);
+
+// let sum =(a,b)=>console.log(`the sum of ${a} and ${b} is ${a+b}`);
+//   sum(2,3);
