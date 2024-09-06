@@ -56,8 +56,20 @@
 // console.log(name);
 
 
-let firstName="banty";
-let lastName="Bablu";
-// let fullName= firstName + lastName;
-let fullName= `${firstName} ${lastName}`;
-console.log(fullName);
+// let firstName="banty";
+// let lastName="Bablu";
+// // let fullName= firstName + lastName;
+// let fullName= `${firstName} ${lastName}`;
+// console.log(fullName);
+
+
+//string interpolation with variable
+// let age=24;
+// let message=`i am ${age} year old.`;
+// console.log(message);
+
+
+function sum(a=4,b=3){
+    return a+b;
+}
+console.log(sum(5,6));
